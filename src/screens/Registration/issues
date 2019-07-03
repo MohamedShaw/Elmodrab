@@ -1,0 +1,35 @@
+From Apple
+5. 1.1 Legal: Privacy - Data Collection and Storage
+Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+
+
+Please revise the relevant purpose string in your app’s Info.plist file to specify why the app is requesting access to the user's camera and photos. You can modify your app's Info.plist file using the property list editor in Xcode.
+
+To help users understand why your app is requesting access to their personal data, all permission request alerts in your app should specify how your app will use the requested feature.
+
+Resources
+
+For additional information and instructions on requesting permission, please review the Requesting Permission section of the iOS Human Interface Guidelines and the Information Property List Key Reference. You may also want to review the Technical Q&A QA1937: Resolving the Privacy-Sensitive Data App Rejection page for details on how to provide a usage description for permission request alerts.
+
+Guideline 5.1.1 - Legal - Privacy - Data Collection and Storage
+
+
+Please either remove the nationality and gender fields that are not relevant to the app or make those fields optional. 
+
+If you choose to make them optional, please mark them as such so users can understand that they are not required to provide such personal information.
+
+Information requested during registration must be relevant to the features the app provides.
+
+Request a phone call from App Review
+
+At your request, we can arrange for an Apple Representative to call you within the next three to five business days to discuss your App Review issue.
+
+Request a call to discuss your app's review
+
+Please see attached screenshots for details.
+
+
+
+Screenshot-0502-114016.png
+Screenshot-0502-113957.png
+Screenshot-0502-114010.png

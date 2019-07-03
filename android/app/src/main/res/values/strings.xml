@@ -1,0 +1,4 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">YO2Kl0vyFK4weOr4_iIrwOqHwbyJH1-1QRem3N</string>
+    <string name="app_name">ArabTrainer</string>
+</resources>

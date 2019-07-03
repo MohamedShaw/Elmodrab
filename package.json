@@ -1,0 +1,51 @@
+{
+	"name": "ArabTrainer",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"clear": "rm -rf $TMPDIR/react-native-packager-cache-* && rm -rf $TMPDIR/metro-bundler-cache-*"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"formik": "^1.5.1",
+		"install": "^0.12.2",
+		"native-base": "^2.8.1",
+		"radio-button-react-native": "^1.1.6",
+		"react": "16.6.0-alpha.8af6728",
+		"react-native": "0.57.4",
+		"react-native-cli": "^2.0.1",
+		"react-native-code-push": "^5.6.0",
+		"react-native-dialog": "^5.5.0",
+		"react-native-easy-toast": "^1.1.0",
+		"react-native-fast-image": "^5.1.1",
+		"react-native-image-picker": "^0.27.2",
+		"react-native-image-progress": "^1.1.1",
+		"react-native-invertible-scroll-view": "^1.1.1",
+		"react-native-localization": "^2.0.2",
+		"react-native-material-dropdown": "git+https://github.com/harshitjee/react-native-material-dropdown.git",
+		"react-native-modal": "^7.0.0",
+		"react-native-offline": "^3.14.1",
+		"react-native-progress": "^3.5.0",
+		"react-native-restart": "0.0.9",
+		"react-native-scrollable-tab-view": "^0.10.0",
+		"react-native-splash-screen": "^3.2.0",
+		"react-native-vector-icons": "^6.0.2",
+		"react-navigation": "^2.18.3",
+		"react-redux": "^5.1.0",
+		"redux": "^4.0.1",
+		"redux-form": "^7.4.2",
+		"redux-saga": "^0.16.2",
+		"yup": "^0.26.10"
+	},
+	"devDependencies": {
+		"babel-jest": "23.6.0",
+		"jest": "23.6.0",
+		"metro-react-native-babel-preset": "0.49.0",
+		"react-test-renderer": "16.6.0-alpha.8af6728"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
